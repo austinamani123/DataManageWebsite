@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #000300;
+}
+
+@layer components {
+	.nav {
+		@apply flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white 
+	}
+	.nav h1 {
+		@apply w-full text-3xl font-bold text-[#00df9a]
+	}
+	
+}
