@@ -4,6 +4,8 @@
 
 body {
 	background-color: #000300;
+	
+	
 }
 
 @layer components {
@@ -14,7 +16,7 @@ body {
 		@apply w-full text-3xl font-bold text-[#00df9a]
 	}
 	.hero {
-		@apply text-white
+		@apply text-white 
 	}
 	.hero-content {
 		@apply max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center 
